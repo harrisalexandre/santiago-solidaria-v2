@@ -36,3 +36,8 @@ Abra `index.html` no navegador ou publique o diretório em hospedagem estática.
 - `index.html`: interface e modais.
 - `styles.css`: identidade visual responsiva.
 - `app.js`: navegação, formulários e persistência de demonstração.
+
+
+## Mapa comunitário e mural de voluntários (demonstração)
+
+A seção de mobilização usa Leaflet + OpenStreetMap, com pins ilustrativos por região inspirados nas localidades mencionadas no exemplo de colocação de lonas. As coordenadas são aproximadas e não representam os endereços informados. O mural exibe perfis apenas quando o voluntário marca consentimento específico; aparece somente primeiro nome, região e habilidades, nunca telefone. Persistência ainda é local ao navegador: usuários diferentes não compartilham registros. Para produção, substituir os dados demonstrativos por backend, moderação, consentimento e políticas RLS.
